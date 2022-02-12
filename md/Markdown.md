@@ -45,3 +45,15 @@ BlockQuote (>)
 
 하나, 둘, 셋
 
+강조
+
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~cancleline~~
+
+줄바꿈
+
+3칸 이상 띄어쓰기를 하면 줄이 바뀌게 된다.   
+이렇게   저렇게   하나, 둘, 셋   가나다라마바사
