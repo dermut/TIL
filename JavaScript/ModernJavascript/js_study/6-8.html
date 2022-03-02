@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>픽셀의 RGB 값</title>
+    <style>
+        canvas { border:  2px solid gray; }
+    </style>
+    <script>
+        window.onload = function() {
+            var canvas = document.getElementById("mycanvas");
+            var ctx = canvas.getContext("2d");
+            // 이미지 객체 생성하기
+            var img = new Image();
+            // 이미지를 읽어 들인 후의 처리
+            img.onload = function() {
+                // 읽어들인
+            }
+        }
+    </script>
+</head>
+<body>
+    <canvas id="mycanvas" width="640" height=""400></canvas>
+    <div><output id="rgb"></output></div>
+</body>
+</html>
